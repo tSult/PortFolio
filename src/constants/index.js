@@ -58,18 +58,18 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Full-Stack Developer",
-    icon: web,
-  },
+  // {
+  //   title: "Full-Stack Developer",
+  //   icon: web,
+  // },
   {
     title: "Frontend Developer",
     icon: mobile,
   },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
   {
     title: "Ui UX Designer",
     icon: creator,
@@ -97,52 +97,52 @@ const technologies = [
     name: "gsap",
     icon: gsap,
   },
-  {
-    name: "framer",
-    icon: framer,
-  },
+  // {
+  //   name: "framer",
+  //   icon: framer,
+  // },
 
  
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "figma",
     icon: figma,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Material Ui",
-    icon: mui,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Express Js",
-    icon: express,
-  },
-  {
-    name: "AWS",
-    icon: aws,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "MySql",
-    icon: mysql,
-  },
+  // {
+  //   name: "Material Ui",
+  //   icon: mui,
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "Express Js",
+  //   icon: express,
+  // },
+  // {
+  //   name: "AWS",
+  //   icon: aws,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "MySql",
+  //   icon: mysql,
+  // },
 
   {
     name: "git",
@@ -154,14 +154,13 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
+    title: "Front-end Developer",
+    // company_name: "Tekisky",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "Oct 2023 - present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -197,9 +196,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Animated Website ",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "This is a next-generation gaming platform that merges Web2 and Web3 experiences through AI and blockchain. It offers a unified Metagame layer where players earn rewards, evolve digital identities, and engage across games and apps using its ecosystem of AI agents, gamified apps, and the ZENT token.",
     tags: [
       {
         name: "react",
@@ -210,29 +209,30 @@ const projects = [
         color: "white-text-gradient",
       },
       {
-        name: "node",
+        name: "Gsap",
         color: "pink-text-gradient",
       },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+      // {
+      //   name: "mongodb",
+      //   color: "green-text-gradient",
+      // },
  
     ],
     image: project2,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/tSult/Animated_Project_Using_Gsap",
   },
   {
-    name: "GearXpert",
+    name: "Ochi",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
-    tags: [
+     "Based in Lviv, Ukraine, Ochi is a strategic presentation agency that collaborates with forward-thinking businesses to create compelling pitch decks, investor presentations, and branded templates. Their work spans various industries, aiming to communicate complex ideas effectively." ,  
+     
+     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
@@ -241,32 +241,24 @@ const projects = [
       },
     ],
     image: gearXpert,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/tSult/ochi_project",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Employee Management System",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "This is a EMS . Where admin can provide tasks to employee ,then if employee can do these task they mark it as completed.Then admin can see the update.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "tailwind",
         color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+      }
     ],
     image: project3,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/tSult/Employee_Management_System",
   },
 ];
 

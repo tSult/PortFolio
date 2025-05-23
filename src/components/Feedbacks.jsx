@@ -44,7 +44,7 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
     >
       <p className="text-white font-black text-[48px]">"</p>
 
-      <div className="mt-1">
+       <div className="mt-1">
         <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
 
         <div className="mt-7 flex justify-between items-center gap-1">
@@ -57,13 +57,13 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
             </p>
           </div>
 
-          <img
+          {/* <img
             src={image}
             alt={`feedback_by-${name}`}
             className="w-10 h-10 rounded-full object-cover"
-          />
+          /> */}
         </div>
-      </div>
+      </div> 
     </div>
   );
 };
