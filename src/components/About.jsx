@@ -97,8 +97,9 @@ const About = () => {
         build something exceptional together!
       </p>
 
-      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">
-        {services.map((service, index) => (
+      <div className="mt-20 flex flex-col md:flex-row justify-center items-center space-x-0 md:space-x-10">
+
+ {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>

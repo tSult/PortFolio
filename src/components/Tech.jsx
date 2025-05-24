@@ -35,7 +35,7 @@ const Tech = () => {
 
   return (
     <section>
-      <div className="tech-icons-wrapper flex flex-row flex-wrap justify-center gap-10">
+      <div className="tech-icons-wrapper flex flex-row flex-wrap justify-center gap-5">
         {technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
             <img
